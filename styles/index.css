@@ -1,0 +1,30 @@
+section{
+    height: 100vh;
+}
+section:nth-child(1){
+    background-color: yellow;
+}
+section:nth-child(2){
+    background-color: orange;
+}
+section:nth-child(3){
+    background-color: blue;
+}
+section:nth-child(4){
+    background-color: skyblue;
+}
+section:nth-child(5){
+    background-color: black;
+}
+.login-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px;
+    gap: 10px;    
+}
+.login-container select{
+    padding: 10px;
+}
+.login-container button{
+    padding: 10px 20px;
+}
